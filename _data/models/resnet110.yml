@@ -1,0 +1,10 @@
+name: ResNet-110
+paper: https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf
+code: 
+framework: 
+cifar10_model: 
+cifar100_model: 
+cifar10_error: 5.49
+cifair10_error: 5.90
+cifar100_error: 27.55
+cifair100_error: 30.68

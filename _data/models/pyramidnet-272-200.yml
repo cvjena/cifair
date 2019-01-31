@@ -1,0 +1,10 @@
+name: PyramidNet-272-200
+paper: https://arxiv.org/pdf/1610.02915
+code: 
+framework: 
+cifar10_model: 
+cifar100_model: 
+cifar10_error: 3.58
+cifair10_error: 4.00
+cifar100_error: 17.05
+cifair100_error: 19.38

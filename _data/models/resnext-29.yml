@@ -1,0 +1,10 @@
+name: ResNeXt-29 (8x64d)
+paper: http://openaccess.thecvf.com/content_cvpr_2017/papers/Xie_Aggregated_Residual_Transformations_CVPR_2017_paper.pdf
+code: 
+framework: 
+cifar10_model: 
+cifar100_model: 
+cifar10_error: 3.56
+cifair10_error: 3.95
+cifar100_error: 18.38
+cifair100_error: 20.84

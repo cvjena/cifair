@@ -1,0 +1,10 @@
+name: WRN-28-10
+paper: https://arxiv.org/pdf/1605.07146
+code: 
+framework: 
+cifar10_model: 
+cifar100_model: 
+cifar10_error: 3.89
+cifair10_error: 4.25
+cifar100_error: 18.95
+cifair100_error: 21.48
