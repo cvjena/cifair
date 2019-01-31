@@ -20,6 +20,9 @@ We encourage everyone training models on CIFAR to evaluate them on the ciFAIR te
 Leaderboard & Pre-Trained Models
 --------------------------------
 
+{% assign best_cifar10 = site.data.models | sort:"cifar10_error" -%}
+{{ best_cifar10.first.name }}
+
 | Architecture | Code | CIFAR-10 | ciFAIR-10 | CIFAR-100 | ciFAIR-100 | Pre-Trained Models |
 |--------------|------|---------:|----------:|----------:|-----------:|--------------------|
 {% for model_hash in site.data.models -%}
