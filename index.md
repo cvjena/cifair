@@ -22,9 +22,7 @@ Leaderboard & Pre-Trained Models
 
 | Model | CIFAR-10 | ciFAIR-10 | CIFAR-100 | ciFAIR-100 | Ressources |
 |-------|---------:|----------:|----------:|-----------:|------------|
-{% for model_hash in site.data.models %}
-{% assign model = model_hash[1] %}
-| {{ model.name }} | {{ model.cifar10_perf }}% | {{ model.cifair10_perf }}% | {{ model.cifar100_perf }}% | {{ model.cifair100_perf }}% | [paper]({{ model.paper }}) / [code]({{ model.code }}) / [CIFAR-10 model]({{ model.cifar10_model }}) / [CIFAR-100 model]({{ model.cifar100_model }})
+{% for model_hash in site.data.models %}{% assign model = model_hash[1] %}| {{ model.name }} | {{ model.cifar10_error }}% | {{ model.cifair10_error }}% | {{ model.cifar100_error }}% | {{ model.cifair100_error }}% | [paper]({{ model.paper }}) / [code]({{ model.code }}) / [CIFAR-10 model]({{ model.cifar10_model }}) / [CIFAR-100 model]({{ model.cifar100_model }})
 {% endfor %}
 
 
