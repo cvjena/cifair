@@ -20,9 +20,11 @@ We encourage everyone training models on CIFAR to evaluate them on the ciFAIR te
 Leaderboard & Pre-Trained Models
 --------------------------------
 
-| Model | CIFAR-10 | ciFAIR-10 | CIFAR-100 | ciFAIR-100 | Ressources |
-|-------|---------:|----------:|----------:|-----------:|------------|
-{% for model_hash in site.data.models %}{% assign model = model_hash[1] %}| {{ model.name }} | {{ model.cifar10_error }}% | {{ model.cifair10_error }}% | {{ model.cifar100_error }}% | {{ model.cifair100_error }}% | [paper]({{ model.paper }}) / [code]({{ model.code }}) / [CIFAR-10 model]({{ model.cifar10_model }}) / [CIFAR-100 model]({{ model.cifar100_model }})
+| Architecture | Code / Framework | CIFAR-10 | ciFAIR-10 | CIFAR-100 | ciFAIR-100 | Pre-Trained Models |
+|--------------|------------------|---------:|----------:|----------:|-----------:|--------------------|
+{% for model_hash in site.data.models -%}
+{% assign model = model_hash[1] -%}
+| [{{ model.name }}]({{ model.paper }}) | [{{ model.framework }}]({{ model.code }}) | {{ model.cifar10_error }}% | {{ model.cifair10_error }}% | {{ model.cifar100_error }}% | {{ model.cifair100_error }}% | [CIFAR-10]({{ model.cifar10_model }}) / [CIFAR-100]({{ model.cifar100_model }})
 {% endfor %}
 
 
