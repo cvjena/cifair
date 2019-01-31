@@ -2,8 +2,8 @@ name: Plain-11
 paper: http://hera.inf-cv.uni-jena.de:6680/pdf/Barz18:GoodTraining
 code: https://github.com/cvjena/semantic-embeddings/blob/master/models/plainnet.py
 framework: Keras
-cifar10_model: about:blank
-cifar100_model: about:blank
+cifar10_model: 
+cifar100_model: 
 cifar10_error: 5.91
 cifair10_error: 6.43
 cifar100_error: 27.82
