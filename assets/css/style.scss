@@ -36,6 +36,11 @@ a.button.paper span {
 }
 
 
+blockquote {
+    font-size: 1em;
+}
+
+
 table {
     font-size: 0.9em;
     margin-bottom: 20px;
@@ -77,5 +82,9 @@ ul li {
 footer .logo {
     float: right;
     width: auto;
-    height: 40px;
+    height: 60px;
+}
+
+footer .imprint-link {
+    color: inherit;
 }
