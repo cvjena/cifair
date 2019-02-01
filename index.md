@@ -15,8 +15,9 @@ Leaderboard & Pre-Trained Models
 --------------------------------
 
 We maintain a community-driven leaderboard of CNN architectures for image classification on ciFAIR.
-Methods are sorted by their *error rate* on the ciFAIR-100 test set and the best value in each column is highlighted in bold font.
-Architectures are linked to the corresponding paper and clicking on the name of a CNN framework used for a certain architecture will bring you to the source code used for training the model.
+Methods are sorted by their *error rate* on the ciFAIR-100 test set and the best value in each column is highlighted in bold font.  
+Architectures are linked to the corresponding paper.
+Clicking on the name of the CNN framework used for a certain architecture will bring you to the source code used for training the model.
 
 {% include leaderboard.md %}
 
