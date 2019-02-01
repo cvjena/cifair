@@ -14,8 +14,15 @@ We encourage everyone training models on CIFAR to evaluate them on the ciFAIR te
 Leaderboard & Pre-Trained Models
 --------------------------------
 
+We maintain a community-driven leaderboard of CNN architectures for image classification on ciFAIR.
+Methods are sorted by their *error rate* on the ciFAIR-100 test set and the best value in each column is highlighted in bold font.
+Architectures are linked to the corresponding paper and clicking on the name of a CNN framework used for a certain architecture will bring you to the source code used for training the model.
+
 {% include leaderboard.md %}
+
+If you think a certain architecture should be included in this leaderboard, your [pull request][2] is very welcome.
 
 
 
 [1]: https://www.cs.toronto.edu/~kriz/cifar.html
+[2]: https://github.com/cvjena/cifair
