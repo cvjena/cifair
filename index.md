@@ -35,6 +35,6 @@ If you think a certain architecture should be included in this leaderboard, your
 
 
 [1]: https://www.cs.toronto.edu/~kriz/cifar.html
-[2]: https://github.com/cvjena/cifair
+[2]: {{ site.github.repository_url }}
 [3]: https://bugs.python.org/issue13566
-[4]: https://github.com/cvjena/cifair/tree/master/meta
+[4]: {{ site.github.repository_url }}/tree/master/meta
