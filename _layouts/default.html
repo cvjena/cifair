@@ -21,9 +21,12 @@
           <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
         </header>
         <section id="downloads" class="clearfix">
-          {% if site.show_downloads %}
-          <a href="{{ site.cifair10_url }}" class="button download"><span>Download ciFAIR-10</span></a>
-          <a href="{{ site.cifair100_url }}" class="button download"><span>Download ciFAIR-100</span></a>
+          {% if site.show_downloads and site.github.latest_release and site.github.latest_release %}
+          {% for asset in site.github.latest_release.assets %}
+          {% if asset.name contains "ciFAIR" %}
+          <a href="{{ asset.browser_download_url }}" class="button download"><span>Download {{ asset.name | replace: ".zip", "" }}</span></a>
+          {% endif %}
+          {% endfor %}
           {% endif %}
         </section>
         <hr>

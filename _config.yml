@@ -5,5 +5,3 @@ exclude: [README.md]
 theme: jekyll-theme-tactile
 
 show_downloads: true
-cifair10_url: https://github.com/cvjena/cifair/releases/download/v1.0/cifair-10.zip
-cifair100_url: https://github.com/cvjena/cifair/releases/download/v1.0/cifair-100.zip
