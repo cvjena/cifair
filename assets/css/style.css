@@ -1,0 +1,41 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+.inner {
+    width: 840px;
+}
+
+
+a {
+    color: #0c00d5;
+}
+
+a:hover {
+    color: #5a52e1;
+}
+
+
+a.button {
+    width: auto;
+    padding-right: 18px;
+}
+
+a.button.download span {
+    background: transparent url(../images/download-icon.png) 12px 50% no-repeat;
+}
+
+
+td, th {
+    border-color: #a0a0a0;
+}
+
+td {
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+}

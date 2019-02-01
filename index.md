@@ -3,12 +3,6 @@ layout: default
 title: ciFAIR
 ---
 
-ciFAIR
-======
-
-A duplicate-free variant of the CIFAR test set
-----------------------------------------------
-
 The test sets of the popular [CIFAR-10 and CIFAR-100 datasets][1] contain 3.25% and 10% duplicate images, respectively, i.e., images that can also be found in very similar form in the training set or the test set itself.
 ciFAIR-10 and ciFAIR-100 are variants of these datasets with modified test sets, where all these duplicates have been replaced with new images.
 
