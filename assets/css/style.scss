@@ -4,6 +4,10 @@
 @import "{{ site.theme }}";
 
 
+body {
+    color: #404040;
+}
+
 .inner {
     width: 840px;
 }
@@ -28,8 +32,13 @@ a.button.download span {
 }
 
 
+table {
+    font-size: 0.9em;
+}
+
 td, th {
-    border-color: #a0a0a0;
+    border: 1px solid #a0a0a0;
+    padding: 0.2em 0.6em;
 }
 
 td {

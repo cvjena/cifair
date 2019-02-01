@@ -18,7 +18,7 @@
 {% comment %}Format the actual table{% endcomment -%}
 
 | Architecture | Code | CIFAR-10 | ciFAIR-10 | CIFAR-100 | ciFAIR-100 | Pre-Trained Models |
-|--------------|------|---------:|----------:|----------:|-----------:|--------------------|
+|--------------|------|---------:|----------:|----------:|-----------:|:------------------:|
 {% for model in models -%}
 {% if model.cifar10_error == best_cifar10 %}{% assign is_best_cifar10 = true %}{% else %}{% assign is_best_cifar10 = false %}{% endif -%}
 {% if model.cifair10_error == best_cifair10 %}{% assign is_best_cifair10 = true %}{% else %}{% assign is_best_cifair10 = false %}{% endif -%}
