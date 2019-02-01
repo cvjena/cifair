@@ -6,10 +6,18 @@ title: ciFAIR
 The test sets of the popular [CIFAR-10 and CIFAR-100 datasets][1] contain 3.25% and 10% duplicate images, respectively, i.e., images that can also be found in very similar form in the training set or the test set itself.
 ciFAIR-10 and ciFAIR-100 are variants of these datasets with modified test sets, where all these duplicates have been replaced with new images.
 
+{% if site.paper %}
+Details about how we found duplicates in CIFAR and created ciFAIR can be found in the following paper:
+
+> [*{{ site.paper.title }}*]({{ site.paper.url }})  
+> {{ site.paper.authors }}
+{% endif %}
+
 The training sets have remained unchanged and are identical to those of CIFAR.
 
 We encourage everyone training models on CIFAR to evaluate them on the ciFAIR test sets for an unbiased comparison.
 Download links can be found at the top of the page.
+{% if site.paper %}If you use ciFAIR, please cite the paper mentioned above.{% endif %}
 
 Both datasets have the same structure as CIFAR and are intended to be used as drop-in replacements.
 However, there are two compatibility issues:
