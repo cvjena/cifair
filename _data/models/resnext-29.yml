@@ -1,9 +1,9 @@
 name: ResNeXt-29 (8x64d)
 paper: http://openaccess.thecvf.com/content_cvpr_2017/papers/Xie_Aggregated_Residual_Transformations_CVPR_2017_paper.pdf
-code: 
-framework: 
-cifar10_model: 
-cifar100_model: 
+code: https://github.com/prlz77/ResNeXt.pytorch
+framework: PyTorch
+cifar10_model: https://github.com/cvjena/cifair/releases/download/v1.0/resnext-29_cifar10.model.pytorch
+cifar100_model: https://github.com/cvjena/cifair/releases/download/v1.0/resnext-29_cifar100.model.pytorch
 cifar10_error: 3.56
 cifair10_error: 3.95
 cifar100_error: 18.38

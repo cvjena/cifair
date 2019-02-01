@@ -1,9 +1,9 @@
 name: DenseNet-BC (L=190, k=40)
 paper: http://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Densely_Connected_Convolutional_CVPR_2017_paper.pdf
-code: 
-framework: 
-cifar10_model: 
-cifar100_model: 
+code: https://github.com/gpleiss/efficient_densenet_pytorch/
+framework: PyTorch
+cifar10_model: https://github.com/cvjena/cifair/releases/download/v1.0/densenet-bc-190-40_cifar10.dat
+cifar100_model: https://github.com/cvjena/cifair/releases/download/v1.0/densenet-bc-190-40_cifar100.dat
 cifar10_error: 3.90
 cifair10_error: 4.20
 cifar100_error: 18.62

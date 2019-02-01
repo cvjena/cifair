@@ -1,9 +1,9 @@
 name: WRN-28-10
 paper: https://arxiv.org/pdf/1605.07146
-code: 
-framework: 
-cifar10_model: 
-cifar100_model: 
+code: https://github.com/szagoruyko/wide-residual-networks
+framework: (Py)Torch
+cifar10_model: https://github.com/cvjena/cifair/releases/download/v1.0/wrn-28-10_cifar10.pt7
+cifar100_model: https://github.com/cvjena/cifair/releases/download/v1.0/wrn-28-10_cifar100.pt7
 cifar10_error: 3.89
 cifair10_error: 4.25
 cifar100_error: 18.95
