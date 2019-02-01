@@ -7,8 +7,8 @@ This repository hosts the following website:
 
 ---
 
-Adding new models to the leaderboard
-------------------------------------
+Adding a new model to the leaderboard
+-------------------------------------
 
 If you think an important CNN architecture is missing from the leaderboard on the [ciFAIR page][1] or you have come up with your own architecture outperforming the previous state-of-the-art, we would be happy to accept a pull request from you to update the leaderboard.
 
