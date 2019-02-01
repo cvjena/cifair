@@ -9,6 +9,15 @@ ciFAIR-10 and ciFAIR-100 are variants of these datasets with modified test sets,
 The training sets have remained unchanged and are identical to those of CIFAR.
 
 We encourage everyone training models on CIFAR to evaluate them on the ciFAIR test sets for an unbiased comparison.
+Download links can be found at the top of the page.
+
+Both datasets have the same structure as CIFAR and are intended to be used as drop-in replacements.
+However, there are two compatibility issues:
+
+- The test set pickle files do not contain an item `'filenames'`.
+- The test set pickle files cannot be loaded with Python 2. We were not able to save them in a compatible pickle format due to [this bug][3]. If you find a way to achieve this, please create a [pull request][2].
+
+If you are interested in the actual duplicate images we have found in the original CIFAR datasets, you can find lists of these [here][4].
 
 
 Leaderboard & Pre-Trained Models
@@ -27,3 +36,5 @@ If you think a certain architecture should be included in this leaderboard, your
 
 [1]: https://www.cs.toronto.edu/~kriz/cifar.html
 [2]: https://github.com/cvjena/cifair
+[3]: https://bugs.python.org/issue13566
+[4]: https://github.com/cvjena/cifair/tree/master/meta
