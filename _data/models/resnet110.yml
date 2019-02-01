@@ -4,7 +4,7 @@ code:
 framework: 
 cifar10_model: 
 cifar100_model: 
-cifar10_error: 5.49
-cifair10_error: 5.90
-cifar100_error: 27.55
-cifair100_error: 30.68
+cifar10_error: 5.26
+cifair10_error: 5.77
+cifar100_error: 26.05
+cifair100_error: 29.25
