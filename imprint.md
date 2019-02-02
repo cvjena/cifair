@@ -8,15 +8,7 @@ Imprint
 
 This website is operated by:
 
-Björn Barz  
-Lehrstuhl Digitale Bildverarbeitung  
-Friedrich-Schiller-Universität Jena  
-Ernst-Abbe-Platz 2  
-07743 Jena  
-Germany
-
-Tel.: +49 3641 - 9 46416  
-Mail: &#98;&#106;&#111;&#101;&#114;&#110;&#46;&#98;&#97;&#114;&#122;&#64;&#117;&#110;&#105;&#45;&#106;&#101;&#110;&#97;&#46;&#100;&#101;
+![Address]({{ '/assets/images/address.png' | relative_url }})
 
 
 Privacy
