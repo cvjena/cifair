@@ -5,6 +5,7 @@ exclude: [README.md]
 theme: jekyll-theme-tactile
 
 show_downloads: true
+google_analytics: UA-25984997-7
 owner_logo: /assets/images/cvjena-logo.png
 github:
   owner_url: http://www.inf-cv.uni-jena.de/
