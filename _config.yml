@@ -7,5 +7,11 @@ theme: jekyll-theme-tactile
 show_downloads: true
 google_analytics: UA-25984997-7
 owner_logo: /assets/images/cvjena-logo.png
+paper:
+  title: Do we train on test data? Purging CIFAR of near-duplicates.
+  authors: Björn Barz and Joachim Denzler
+  venue: arXiv preprint arXiv:1902.00423
+  year: 2019
+  url: https://arxiv.org/pdf/1902.00423
 github:
   owner_url: http://www.inf-cv.uni-jena.de/

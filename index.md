@@ -10,7 +10,8 @@ ciFAIR-10 and ciFAIR-100 are variants of these datasets with modified test sets,
 Details about how we found duplicates in CIFAR and created ciFAIR can be found in the following paper:
 
 > [*{{ site.paper.title }}*]({{ site.paper.url }})  
-> {{ site.paper.authors }}
+> {{ site.paper.authors }}.  
+> {{ site.paper.venue }}, {{ site.paper.year }}.
 {% endif %}
 
 The training sets have remained unchanged and are identical to those of CIFAR.
