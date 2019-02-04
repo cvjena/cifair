@@ -71,6 +71,10 @@ tbody tr:nth-child(odd) {
     background-color: rgba(255,255,255,0.4);
 }
 
+tbody tr:hover {
+    background-color: #d0ebff;
+}
+
 
 ul {
     margin-left: 1em;
