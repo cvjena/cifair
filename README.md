@@ -31,6 +31,7 @@ The process for making a pull request to the leaderboard is as follows:
    cifair10_error: 3.95
    cifar100_error: 18.38
    cifair100_error: 20.84
+   num_params: 34518948
    ```
 
    Leave the fields for the links to the pre-trained models blank for now; we will add them later.

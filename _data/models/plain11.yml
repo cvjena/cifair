@@ -8,3 +8,4 @@ cifar10_error: 5.91
 cifair10_error: 6.43
 cifar100_error: 27.82
 cifair100_error: 31.34
+num_params: 3386404
