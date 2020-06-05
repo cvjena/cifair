@@ -27,6 +27,10 @@ a.button {
     padding-right: 18px;
 }
 
+a.button.last {
+    float: none;
+}
+
 a.button.download span {
     background: transparent url(../images/download-icon.png) 12px 50% no-repeat;
 }

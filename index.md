@@ -48,35 +48,19 @@ Data Loaders
 
 ### PyTorch
 
-<a href="{{ site.github.repository_url }}/raw/master/loaders/pytorch/cifair.py" class="button download" target="_blank"><span>Download PyTorch data loader</span></a>
-
+<a href="{{ site.github.repository_url }}/raw/master/loaders/pytorch/cifair.py" class="button download last" target="_blank"><span>Download PyTorch data loader</span></a>
 
 Requires `torchvision`.
 
 Simply do `from cifair import ciFAIR10, ciFAIR100` and use these two classes just like the [CIFAR data loaders][5] from `torchvision`.
 
 
-### tf.keras
-
-<a href="{{ site.github.repository_url }}/raw/master/loaders/tf-keras/cifair.py" class="button download" target="_blank"><span>Download tf.keras data loader</span></a>
-
-
-Requires `tensorflow >= 1.9`.
-
-*Usage:*
-
-```python
-import cifair
-(X_train, y_train), (X_test, y_test) = cifair.load_cifair10()
-```
-
-
-### Keras
+### Keras / tf.keras
 
 <a href="{{ site.github.repository_url }}/raw/master/loaders/keras/cifair.py" class="button download" target="_blank"><span>Download Keras data loader</span></a>
+<a href="{{ site.github.repository_url }}/raw/master/loaders/tf-keras/cifair.py" class="button download last" target="_blank"><span>Download tf.keras data loader</span></a>
 
-
-Requires `keras >= 2.0.3`.
+The Keras data loader requires `keras >= 2.0.3`, the tf.keras version requires `tensorflow >= 1.9`.
 
 *Usage:*
 
