@@ -18,6 +18,7 @@ The training sets have remained unchanged and are identical to those of CIFAR.
 
 We encourage everyone training models on CIFAR to evaluate them on the ciFAIR test sets for an unbiased comparison.
 Download links can be found at the top of the page.
+We provide code for loading both datasets with several deep learning frameworks [below](#data-loaders).
 {% if site.paper %}If you use ciFAIR, please cite the paper mentioned above.{% endif %}
 
 Both datasets have the same structure as CIFAR and are intended to be used as drop-in replacements.
@@ -42,8 +43,49 @@ Clicking on the name of the CNN framework used for a certain architecture will b
 If you think a certain architecture should be included in this leaderboard, your [pull request][2] is very welcome.
 
 
+Data Loaders
+------------
+
+### PyTorch
+
+<a href="{{ site.github.repository_url }}/raw/master/loaders/pytorch/cifair.py" class="button download" download><span>Download PyTorch data loader</span></a>
+
+Requires `torchvision`.
+
+Simply do `from cifair import ciFAIR10, ciFAIR100` and use these two classes just like the [CIFAR data loaders][5] from `torchvision`.
+
+
+### tf.keras
+
+<a href="{{ site.github.repository_url }}/raw/master/loaders/tf-keras/cifair.py" class="button download" download><span>Download tf.keras data loader</span></a>
+
+Requires `tensorflow >= 1.9`.
+
+**Usage:**
+
+```python
+import cifair
+(X_train, y_train), (X_test, y_test) = cifair.load_cifair10()
+```
+
+
+### Keras
+
+<a href="{{ site.github.repository_url }}/raw/master/loaders/keras/cifair.py" class="button download" download><span>Download Keras data loader</span></a>
+
+Requires `keras >= 2.0.3`.
+
+**Usage:**
+
+```python
+import cifair
+(X_train, y_train), (X_test, y_test) = cifair.load_cifair10()
+```
+
+
 
 [1]: https://www.cs.toronto.edu/~kriz/cifar.html
 [2]: {{ site.github.repository_url }}
 [3]: https://bugs.python.org/issue13566
 [4]: {{ site.github.repository_url }}/tree/master/meta
+[5]: https://pytorch.org/docs/stable/torchvision/datasets.html#cifar
